@@ -85,7 +85,7 @@ class Database:
             {
                 "$set": {
                     "status": f"admin_{id_admin}",
-                    "coin": f"{coin_awal + 1000}_{id_admin}",
+                    "coin": f"{coin_awal + 100}_{id_admin}",
                 }
             },
         )
