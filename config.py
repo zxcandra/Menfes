@@ -21,7 +21,7 @@ channel_log = int(os.getenv("LOG_CHAT_ID"))
 id_admin = int(os.getenv("ADMIN_ID"))
 # =========================================================== #
 
-batas_kirim = int(os.getenv("BATAS_KIRIM", 5))
+batas_kirim = int(os.getenv("BATAS_KIRIM", 3))
 
 # =========================================================== #
 
